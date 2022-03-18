@@ -19,12 +19,18 @@ body{
 
 .content{
     display: flex;
-    flex-direction: column;
     padding: 15px;
     background-color: lightblue;
-    align-items: center;
     gap:5px;
     margin-top: 10px;
+}
+
+.content-left{
+    flex: 1 1 auto;
+}
+
+.content-right{
+    flex: 1 1 auto;
 }
 
 .description,
