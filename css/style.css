@@ -13,6 +13,7 @@ body{
 .nav{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .nav > ul > li{
@@ -39,6 +40,7 @@ body{
     gap:5px;
     margin-top: 10px;
     border: black solid 1px;
+    flex-wrap: wrap;
 }
 
 .content-left{
@@ -47,6 +49,7 @@ body{
 
 .content-right{
     flex: 1 1 auto;
+    width: 600px;
 }
 
 .description,
