@@ -40,16 +40,16 @@ body{
     gap:5px;
     margin-top: 10px;
     border: black solid 1px;
-    flex-wrap: wrap;
 }
 
 .content-left{
     flex: 1 1 auto;
+    flex-flow: column wrap;
 }
 
 .content-right{
     flex: 1 1 auto;
-    width: 600px;
+    flex-flow: column wrap;
 }
 
 .description,
