@@ -42,16 +42,6 @@ body{
     border: black solid 1px;
 }
 
-.content-left{
-    flex: 1 1 auto;
-    flex-flow: column wrap;
-}
-
-.content-right{
-    flex: 1 1 auto;
-    flex-flow: column wrap;
-}
-
 .description,
 .ingredients,
 .steps{
